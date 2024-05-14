@@ -4,13 +4,15 @@
     &lt;TestId&gt;xUnit::DD2D6211-3436-44E6-AA9F-1264A1147364::net8.0::Restaurant.Service.UnitTest.Restaurantss.RestaurantServiceAddTest.Add_New_Restaurants_properly&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1a313db1_002Dfb50_002D4780_002Da908_002D875abc81d0fe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Add_New_orders_properly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1a313db1_002Dfb50_002D4780_002Da908_002D875abc81d0fe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Add_New_orders_properly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::DD2D6211-3436-44E6-AA9F-1264A1147364::net8.0::Restaurant.Service.UnitTest.Orders.OrderTestUnit.Add_New_orders_properly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DD2D6211-3436-44E6-AA9F-1264A1147364::net8.0::Restaurant.Service.UnitTest.Restaurant.RestaurantServiceAddTest.Add_New_Restaurants_properly&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce8d9916_002D29f9_002D4b64_002D8240_002De142bb2b998e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Add_New_Restaurants_properly #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce8d9916_002D29f9_002D4b64_002D8240_002De142bb2b998e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Add_New_Restaurants_properly #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::DD2D6211-3436-44E6-AA9F-1264A1147364::net8.0::Restaurant.Service.UnitTest.Orders.OrderTestUnit.Add_New_orders_properly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DD2D6211-3436-44E6-AA9F-1264A1147364::net8.0::Restaurant.Service.UnitTest.Orders.OrderTestUnit.Update_Existing_orders_Successfully&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

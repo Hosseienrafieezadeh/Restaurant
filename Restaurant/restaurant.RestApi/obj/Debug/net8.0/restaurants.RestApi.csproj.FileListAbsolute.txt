@@ -77,3 +77,4 @@ F:\youTube_WebApi\asli\Restaurant\restaurant.RestApi\bin\Debug\net8.0\Castle.Cor
 F:\youTube_WebApi\asli\Restaurant\restaurant.RestApi\bin\Debug\net8.0\Moq.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.RestApi\bin\Debug\net8.0\restaurant.Entitis.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.RestApi\bin\Debug\net8.0\restaurant.Entitis.pdb
+F:\youTube_WebApi\asli\Restaurant\restaurant.RestApi\obj\Debug\net8.0\restaurants.RestApi.sourcelink.json

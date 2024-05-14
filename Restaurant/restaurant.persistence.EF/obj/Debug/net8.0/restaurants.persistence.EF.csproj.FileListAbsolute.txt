@@ -19,3 +19,4 @@ F:\youTube_WebApi\asli\Restaurant\restaurant.persistence.EF\bin\Debug\net8.0\res
 F:\youTube_WebApi\asli\Restaurant\restaurant.persistence.EF\bin\Debug\net8.0\Restaurants.Contracts.pdb
 F:\youTube_WebApi\asli\Restaurant\restaurant.persistence.EF\bin\Debug\net8.0\restaurant.Entitis.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.persistence.EF\bin\Debug\net8.0\restaurant.Entitis.pdb
+F:\youTube_WebApi\asli\Restaurant\restaurant.persistence.EF\obj\Debug\net8.0\restaurants.persistence.EF.sourcelink.json

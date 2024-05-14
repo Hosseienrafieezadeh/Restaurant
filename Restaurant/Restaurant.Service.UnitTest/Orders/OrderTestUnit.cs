@@ -19,49 +19,43 @@ using restaurants.persistence.EF.Orders;
 using Xunit.Sdk;
 using restaurants.Services.Resturants.Contracts.Dtos;
 using restaurants.Services.Users.Contracts.Dtos;
+using restaurants.Services.Resturants.Contracts;
+using restaurants.persistence.EF.Restaurants;
+using restaurants.Services.Resturants;
+using Microsoft.EntityFrameworkCore;
+using Restaurant.Test.Tools.Orders;
+using restaurant.Entitis.Restaurants;
+using Restaurant.Test.Tools.Restaurants;
+using Restaurant.Test.Tools.Users;
 
 namespace Restaurant.Service.UnitTest.Orders
 {
     public class OrderTestUnit
     {
+        private readonly OrdersServices _sut;
+        private readonly EFDataContext _context;
+        private readonly EFDataContext _readContext;
+
+        public OrderTestUnit()
+        {
+            var db = new EFInMemoryDatabase();
+            _context = db.CreateDataContext<EFDataContext>();
+            _readContext = db.CreateDataContext<EFDataContext>();
+            _sut = OrdersServiceFactory.Create(_context);
+        }
+
         [Fact]
         public async Task Add_New_orders_properly()
         {
-            var db = new EFInMemoryDatabase();
-            var context = db.CreateDataContext<EFDataContext>();
-            var readContext = db.CreateDataContext<EFDataContext>();
-            var sut = new OrdersAppServices(new EFOrdersRepozitory(context), new EFUnitOfWork(context));
-            var orderDate = new DateTime(2015, 3, 10, 2, 15, 10);
-            var restaurant = new restaurant.Entitis.Restaurants.Restaurant
-            {
-                Name = "ali",
-                Category = "fastFood",
-                ContactEmail = "Hossein.rf27@gmailcom",
-                ContactNumber = "09174554121",
-                Description = "noting",
-                HasDelivery = true,
-            };
-            var user = new User()
-            {
-                Username = "ali",
-                Password = "12345678",
-                UserType = 0,
-                RestaurantId = 4,
-            };
-            context.Save(restaurant);
-            context.Save(user);
-            var dto = new AddOrdersDto
-            {
-                Notes = "string",
-                OrderDate = orderDate,
-                UserId = user.Id,
-                RestaurantId =restaurant.Id,
-                TotalAmount = 4000
-            };
+            var restaurant = new RestaurantBuilder().Bulid();
+            var user = new UserBuilder().Build();
+            _context.Save(restaurant);
+            _context.Save(user);
+            var dto =AddOrdersDtoFactory.Create(user.Id,restaurant.Id);
           
-            await sut.Add(dto);
+            await _sut.Add(dto);
          
-            var actual = readContext.Orders.Single();
+            var actual = _readContext.Orders.Single();
             actual.Notes.Should().Be(dto.Notes);
             actual.OrderDate.Should().Be(dto.OrderDate);
             actual.UserId.Should().Be(dto.UserId);
@@ -72,67 +66,22 @@ namespace Restaurant.Service.UnitTest.Orders
         [Fact]
         public async Task Update_Existing_orders_Successfully()
         {
-            var db = new EFInMemoryDatabase();
-            var context = db.CreateDataContext<EFDataContext>();
-            var readContext = db.CreateDataContext<EFDataContext>();
-            var sut = new OrdersAppServices(new EFOrdersRepozitory(context), new EFUnitOfWork(context));
+          
             var orderDate = new DateTime(2015, 3, 10, 2, 15, 10);
-            var restaurant2 = new restaurant.Entitis.Restaurants.Restaurant
-            {
-                Name = "ali",
-                Category = "fastFood",
-                ContactEmail = "Hossein.rf27@gmailcom",
-                ContactNumber = "09174554121",
-                Description = "noting",
-                HasDelivery = true,
-            };
-            var user2 = new User()
-            {
-                Username = "ali",
-                Password = "12345678",
-                UserType = 0,
-                RestaurantId = 4,
-            };
-          context.Save(restaurant2);
-          context.Save(user2);
-            var order = new Order
-            {
-                Notes = "string",
-                OrderDate = orderDate,
-                UserId = user2.Id,
-                RestaurantId = restaurant2.Id ,
-                TotalAmount = 4000
-            };
+            var restaurant2 = new RestaurantBuilder().Bulid();
+            var user2 = new UserBuilder().Build();
+         _context.Save(restaurant2);
+          _context.Save(user2);
+          var order = new OrederBulider(restaurant2.Id,user2.Id).Build();
            
-            context.Save(order);
-            var restaurant = new restaurant.Entitis.Restaurants.Restaurant
-            {
-                Name = "ali",
-                Category = "fastFood",
-                ContactEmail = "Hossein.rf27@gmailcom",
-                ContactNumber = "09174554121",
-                Description = "noting",
-                HasDelivery = true,
-            };
-            var user = new User()
-            {
-                Username = "ali",
-                Password = "12345678",
-                UserType = 0,
-                RestaurantId = 4,
-            };
-            context.Save(restaurant);
-            context.Save(user);
-            var dto = new UpdateOrdersDto
-            {
-                Notes = "string",
-                OrderDate = orderDate,
-                UserId = user.Id,
-                RestaurantId = restaurant.Id,
-                TotalAmount = 4000
-            };
-            await sut.Update(order.Id, dto);
-            var actual = readContext.Orders.First(_ => _.Id == order.Id);
+            _context.Save(order);
+            var restaurant = new RestaurantBuilder().Bulid();
+            var user = new UserBuilder().Build();
+                _context.Save(restaurant);
+                _context.Save(user);
+                var dto = UpdateOrderDtoFactory.Create(user.Id, restaurant.Id);
+            await _sut.Update(order.Id, dto);
+            var actual = _readContext.Orders.First(_ => _.Id == order.Id);
             actual.Notes.Should().Be(dto.Notes);
             actual.OrderDate.Should().Be(dto.OrderDate);
             actual.UserId.Should().Be(dto.UserId);
@@ -143,67 +92,22 @@ namespace Restaurant.Service.UnitTest.Orders
         [Fact]
         public async Task GEt_Get_order_Successfully()
         {
-            var db = new EFInMemoryDatabase();
-            var context = db.CreateDataContext<EFDataContext>();
-            var readContext = db.CreateDataContext<EFDataContext>();
-            var sut = new OrdersAppServices(new EFOrdersRepozitory(context), new EFUnitOfWork(context));
+            
             var orderDate = new DateTime(2015, 3, 10, 2, 15, 10);
-            var restaurant2 = new restaurant.Entitis.Restaurants.Restaurant
-            {
-                Name = "ali",
-                Category = "fastFood",
-                ContactEmail = "Hossein.rf27@gmailcom",
-                ContactNumber = "09174554121",
-                Description = "noting",
-                HasDelivery = true,
-            };
-            var user2 = new User()
-            {
-                Username = "ali",
-                Password = "12345678",
-                UserType = 0,
-                RestaurantId = 4,
-            };
-            context.Save(restaurant2);
-            context.Save(user2);
-            var restaurant = new restaurant.Entitis.Restaurants.Restaurant
-            {
-                Name = "ali",
-                Category = "fastFood",
-                ContactEmail = "Hossein.rf27@gmailcom",
-                ContactNumber = "09174554121",
-                Description = "noting",
-                HasDelivery = true,
-            };
-            var user = new User()
-            {
-                Username = "ali",
-                Password = "12345678",
-                UserType = 0,
-                RestaurantId = 4,
-            };
-            context.Save(restaurant);
-            context.Save(user);
-            var order1 = new Order
-            {
-                Notes = "string",
-                OrderDate = orderDate,
-                UserId = user2.Id,
-                RestaurantId = restaurant2.Id,
-                TotalAmount = 4000
-            };
+            var restaurant2 = new RestaurantBuilder().Bulid();
+            var user2 = new UserBuilder().Build();
+            _context.Save(restaurant2);
+            _context.Save(user2);
+            var restaurant = new RestaurantBuilder().Bulid();
+            var user = new UserBuilder().Build();
+            _context.Save(restaurant);
+            _context.Save(user);
+            var order1 = new OrederBulider(restaurant2.Id,user2.Id).Build();
 
-            var order2 = new Order
-            {
-                Notes = "string",
-                OrderDate = orderDate,
-                UserId = user.Id,
-                RestaurantId = restaurant.Id,
-                TotalAmount = 4000
-            };
-            context.Save(order1);
-            context.Save(order2);
-            var actual = await sut.GetAll();
+            var order2 =new OrederBulider(restaurant.Id, user.Id).Build();
+            _context.Save(order1);
+            _context.Save(order2);
+            var actual = await _sut.GetAll();
             actual.Count.Should().Be(2);
         }
 
@@ -211,40 +115,17 @@ namespace Restaurant.Service.UnitTest.Orders
         [Fact]
         public async Task remove_remove_orders_Successfully()
         {
-            var db = new EFInMemoryDatabase();
-            var context = db.CreateDataContext<EFDataContext>();
-            var readContext = db.CreateDataContext<EFDataContext>();
+            
             var orderDate = new DateTime(2015, 3, 10, 2, 15, 10);
-            var sut = new OrdersAppServices(new EFOrdersRepozitory(context), new EFUnitOfWork(context));
-            var restaurant = new restaurant.Entitis.Restaurants.Restaurant
-            {
-                Name = "ali",
-                Category = "fastFood",
-                ContactEmail = "Hossein.rf27@gmailcom",
-                ContactNumber = "09174554121",
-                Description = "noting",
-                HasDelivery = true,
-            };
-            var user = new User()
-            {
-                Username = "ali",
-                Password = "12345678",
-                UserType = 0,
-                RestaurantId = 4,
-            };
-            context.Save(restaurant);
-            context.Save(user);
-            var order1 = new Order
-            {
-                Notes = "string",
-                OrderDate = orderDate,
-                UserId = user.Id,
-                RestaurantId = restaurant.Id,
-                TotalAmount = 4000
-            };
-            context.Save(order1);
-            sut.Delete(order1.Id);
-            var actual = readContext.Orders.Any();
+
+            var restaurant = new RestaurantBuilder().Bulid();
+            var user = new UserBuilder().Build();
+            _context.Save(restaurant);
+            _context.Save(user);
+            var order1 = new OrederBulider(restaurant.Id, user.Id).Build();
+            _context.Save(order1);
+            _sut.Delete(order1.Id);
+            var actual = _readContext.Orders.Any();
             actual.Should().BeFalse();
         }
 
@@ -252,38 +133,15 @@ namespace Restaurant.Service.UnitTest.Orders
         public async Task Update_throws_OrdersIsNotExistToUpdateException()
         {
             var Id = 8;
-            var db = new EFInMemoryDatabase();
-            var context = db.CreateDataContext<EFDataContext>();
-            var readContext = db.CreateDataContext<EFDataContext>();
+            
             var orderDate = new DateTime(2015, 3, 10, 2, 15, 10);
-            var sut = new OrdersAppServices(new EFOrdersRepozitory(context), new EFUnitOfWork(context));
-            var restaurant = new restaurant.Entitis.Restaurants.Restaurant
-            {
-                Name = "ali",
-                Category = "fastFood",
-                ContactEmail = "Hossein.rf27@gmailcom",
-                ContactNumber = "09174554121",
-                Description = "noting",
-                HasDelivery = true,
-            };
-            var user = new User()
-            {
-                Username = "ali",
-                Password = "12345678",
-                UserType = 0,
-                RestaurantId = 4,
-            };
-            context.Save(restaurant);
-            context.Save(user);
-            var dto = new UpdateOrdersDto
-            {
-                Notes = "string",
-                OrderDate = orderDate,
-                UserId = user.Id,
-                RestaurantId = restaurant.Id,
-                TotalAmount = 4000
-            };
-            var actual = () => sut.Update(Id, dto);
+
+            var restaurant = new RestaurantBuilder().Bulid();
+            var user = new UserBuilder().Build();
+            _context.Save(restaurant);
+            _context.Save(user);
+            var dto = UpdateOrderDtoFactory.Create(user.Id, restaurant.Id);
+            var actual = () => _sut.Update(Id, dto);
             await actual.Should().ThrowExactlyAsync<OrderIsNotExistToUpadateException>();
         }
 

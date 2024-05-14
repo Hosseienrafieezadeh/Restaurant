@@ -521,6 +521,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj": {
+                "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj"
+              },
               "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\restaurants.Services.csproj": {
                 "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\restaurants.Services.csproj"
               }

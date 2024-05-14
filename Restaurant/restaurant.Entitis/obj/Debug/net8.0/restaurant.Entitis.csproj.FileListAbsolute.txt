@@ -9,3 +9,4 @@ F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurant
 F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\refint\restaurant.Entitis.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurant.Entitis.pdb
 F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\ref\restaurant.Entitis.dll
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurant.Entitis.sourcelink.json

@@ -15,3 +15,4 @@ F:\youTube_WebApi\asli\Restaurant\restaurant.Services\obj\Debug\net8.0\restauran
 F:\youTube_WebApi\asli\Restaurant\restaurant.Services\obj\Debug\net8.0\ref\restaurants.Services.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.Services\bin\Debug\net8.0\restaurant.Entitis.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.Services\bin\Debug\net8.0\restaurant.Entitis.pdb
+F:\youTube_WebApi\asli\Restaurant\restaurant.Services\obj\Debug\net8.0\restaurants.Services.sourcelink.json

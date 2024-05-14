@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\restaurant.persistence.EF\restaurants.persistence.EF.csproj" />
     <ProjectReference Include="..\restaurant.Services\restaurants.Services.csproj" />
   </ItemGroup>
 

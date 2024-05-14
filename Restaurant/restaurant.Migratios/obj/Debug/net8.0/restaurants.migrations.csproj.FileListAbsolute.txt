@@ -94,3 +94,4 @@ F:\youTube_WebApi\asli\Restaurant\restaurant.Migratios\bin\Debug\net8.0\Castle.C
 F:\youTube_WebApi\asli\Restaurant\restaurant.Migratios\bin\Debug\net8.0\Moq.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.Migratios\bin\Debug\net8.0\restaurant.Entitis.dll
 F:\youTube_WebApi\asli\Restaurant\restaurant.Migratios\bin\Debug\net8.0\restaurant.Entitis.pdb
+F:\youTube_WebApi\asli\Restaurant\restaurant.Migratios\obj\Debug\net8.0\restaurants.migrations.sourcelink.json

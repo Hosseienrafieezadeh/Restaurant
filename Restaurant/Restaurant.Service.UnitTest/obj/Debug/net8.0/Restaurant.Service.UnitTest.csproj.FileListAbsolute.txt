@@ -213,3 +213,4 @@ F:\youTube_WebApi\asli\Restaurant\Restaurant.Service.UnitTest\bin\Debug\net8.0\C
 F:\youTube_WebApi\asli\Restaurant\Restaurant.Service.UnitTest\bin\Debug\net8.0\Moq.dll
 F:\youTube_WebApi\asli\Restaurant\Restaurant.Service.UnitTest\bin\Debug\net8.0\restaurant.Entitis.dll
 F:\youTube_WebApi\asli\Restaurant\Restaurant.Service.UnitTest\bin\Debug\net8.0\restaurant.Entitis.pdb
+F:\youTube_WebApi\asli\Restaurant\Restaurant.Service.UnitTest\obj\Debug\net8.0\Restaurant.Service.UnitTest.sourcelink.json
