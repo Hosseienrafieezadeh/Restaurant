@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "restaurants.Services/1.0.0": {
+        "dependencies": {
+          "Restaurants.Contracts": "1.0.0",
+          "restaurant.Entitis": "1.0.0"
+        },
+        "runtime": {
+          "restaurants.Services.dll": {}
+        }
+      },
+      "restaurant.Entitis/1.0.0": {
+        "runtime": {
+          "restaurant.Entitis.dll": {}
+        }
+      },
+      "Restaurants.Contracts/1.0.0": {
+        "runtime": {
+          "Restaurants.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "restaurants.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "restaurant.Entitis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Restaurants.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

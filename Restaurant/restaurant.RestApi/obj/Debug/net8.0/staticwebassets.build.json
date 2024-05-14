@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q08vczuCDx7oUSzQ+YEs7diLmTzQZSZmOk7aWL98zr8=",
+  "Source": "restaurants.RestApi",
+  "BasePath": "_content/restaurants.RestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

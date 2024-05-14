@@ -1,0 +1,11 @@
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\bin\Debug\net8.0\restaurants.Entitis.deps.json
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\bin\Debug\net8.0\restaurants.Entitis.dll
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\bin\Debug\net8.0\restaurants.Entitis.pdb
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurants.Entitis.GeneratedMSBuildEditorConfig.editorconfig
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurants.Entitis.AssemblyInfoInputs.cache
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurants.Entitis.AssemblyInfo.cs
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurants.Entitis.csproj.CoreCompileInputs.cache
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurants.Entitis.dll
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\refint\restaurants.Entitis.dll
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\restaurants.Entitis.pdb
+F:\youTube_WebApi\asli\Restaurant\restaurant.Entitis\obj\Debug\net8.0\ref\restaurants.Entitis.dll

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\restaurant.Entitis\restaurant.Entitis.csproj" />
+    <ProjectReference Include="..\restaurant.persistence.EF\restaurants.persistence.EF.csproj" />
+    <ProjectReference Include="..\restaurant.Services\restaurants.Services.csproj" />
+  </ItemGroup>
+
+</Project>
