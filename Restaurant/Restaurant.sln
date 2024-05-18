@@ -27,9 +27,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurants.Contracts", "Re
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1B9953FE-75E8-47EA-88F6-A73F331ED2E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Service.UnitTest", "Restaurant.Service.UnitTest\Restaurant.Service.UnitTest.csproj", "{DD2D6211-3436-44E6-AA9F-1264A1147364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Service.UnitTest", "Restaurant.Service.UnitTest\Restaurant.Service.UnitTest.csproj", "{DD2D6211-3436-44E6-AA9F-1264A1147364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Test.Tools", "Restaurant.Test.Tools\Restaurant.Test.Tools.csproj", "{D78688D5-54AD-4090-8218-9381700B0BCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Test.Tools", "Restaurant.Test.Tools\Restaurant.Test.Tools.csproj", "{D78688D5-54AD-4090-8218-9381700B0BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4155A4C5-CC3E-4029-9D6C-F1318C182614}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

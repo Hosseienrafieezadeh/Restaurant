@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("restaurants.migrations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d3db6f698c10104ca8fc73807ab845fe43a99f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be4d4bd044e45322dc4baab7a1d928410b562a99")]
 [assembly: System.Reflection.AssemblyProductAttribute("restaurants.migrations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("restaurants.migrations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
