@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\restaurant.Entitis\restaurant.Entitis.csproj" />
-    <ProjectReference Include="..\Restaurants.Contracts\Restaurants.Contracts.csproj" />
+    <Compile Remove="Orders\Exception\**" />
+    <EmbeddedResource Remove="Orders\Exception\**" />
+    <None Remove="Orders\Exception\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Orders\Exception\" />
+    <ProjectReference Include="..\restaurant.Entitis\restaurant.Entitis.csproj" />
+    <ProjectReference Include="..\Restaurants.Contracts\Restaurants.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,3 +9,15 @@ F:\youTube_WebApi\asli\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaur
 F:\youTube_WebApi\asli\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\refint\Restaurants.Contracts.dll
 F:\youTube_WebApi\asli\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.pdb
 F:\youTube_WebApi\asli\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\ref\Restaurants.Contracts.dll
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\bin\Debug\net8.0\Restaurants.Contracts.deps.json
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\bin\Debug\net8.0\Restaurants.Contracts.dll
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\bin\Debug\net8.0\Restaurants.Contracts.pdb
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.AssemblyInfoInputs.cache
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.AssemblyInfo.cs
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.csproj.CoreCompileInputs.cache
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.sourcelink.json
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.dll
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\refint\Restaurants.Contracts.dll
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\Restaurants.Contracts.pdb
+F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurants.Contracts\obj\Debug\net8.0\ref\Restaurants.Contracts.dll

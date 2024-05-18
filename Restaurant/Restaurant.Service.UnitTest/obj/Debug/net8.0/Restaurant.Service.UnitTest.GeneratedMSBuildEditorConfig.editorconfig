@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Restaurant.Service.UnitTest
-build_property.ProjectDir = F:\youTube_WebApi\asli\Restaurant\Restaurant.Service.UnitTest\
+build_property.ProjectDir = F:\youTube_WebApi\tamrin\5\Restaurant\Restaurant\Restaurant.Service.UnitTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

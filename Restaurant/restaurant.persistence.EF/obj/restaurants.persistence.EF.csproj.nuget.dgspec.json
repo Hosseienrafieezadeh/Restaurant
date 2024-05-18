@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj": {}
+    "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj": {}
   },
   "projects": {
-    "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj": {
+    "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj",
+        "projectUniqueName": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj",
         "projectName": "restaurant.Entitis",
-        "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj",
+        "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\obj\\",
+        "outputPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,91 +39,20 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj",
-        "projectName": "restaurants.persistence.EF",
-        "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.persistence.EF\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
         },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj": {
-                "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj"
-              },
-              "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\restaurants.Services.csproj": {
-                "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\restaurants.Services.csproj"
-              },
-              "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj": {
-                "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
@@ -142,18 +71,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\restaurants.Services.csproj": {
+    "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\restaurants.Services.csproj",
-        "projectName": "restaurants.Services",
-        "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\restaurants.Services.csproj",
+        "projectUniqueName": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj",
+        "projectName": "restaurants.persistence.EF",
+        "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.persistence.EF\\restaurants.persistence.EF.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Services\\obj\\",
+        "outputPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.persistence.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -175,11 +104,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj": {
-                "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj"
+              "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj": {
+                "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj"
               },
-              "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj": {
-                "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj"
+              "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Services\\restaurants.Services.csproj": {
+                "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Services\\restaurants.Services.csproj"
+              },
+              "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj": {
+                "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj"
               }
             }
           }
@@ -188,6 +120,99 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Services\\restaurants.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Services\\restaurants.Services.csproj",
+        "projectName": "restaurants.Services",
+        "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Services\\restaurants.Services.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj": {
+                "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\restaurant.Entitis\\restaurant.Entitis.csproj"
+              },
+              "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj": {
+                "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -209,18 +234,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj": {
+    "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj",
+        "projectUniqueName": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj",
         "projectName": "Restaurants.Contracts",
-        "projectPath": "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj",
+        "projectPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\Restaurants.Contracts.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "F:\\youTube_WebApi\\asli\\Restaurant\\Restaurants.Contracts\\obj\\",
+        "outputPath": "F:\\youTube_WebApi\\tamrin\\5\\Restaurant\\Restaurant\\Restaurants.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -248,6 +273,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -269,7 +299,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
